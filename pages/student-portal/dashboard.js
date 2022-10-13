@@ -4,7 +4,7 @@ import { useSession, signOut } from "next-auth/react";
 import { useRouter } from "next/router";
 // import { useNameContext } from "../context/name-context";
 
-const studentPortal = () => {
+const StudentPortal = () => {
   const { data: session, status } = useSession();
   const router = useRouter();
   console.log(session);
@@ -127,4 +127,4 @@ const studentPortal = () => {
   );
 };
 
-export default studentPortal;
+export default StudentPortal;

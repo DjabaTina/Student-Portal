@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
-const register = () => {
+const Register = () => {
   const [data, setData] = useState({
     firstName: "",
     middleName: "",
@@ -238,4 +238,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;
