@@ -115,7 +115,7 @@ const Login = () => {
             </form>
 
             <div className="flex justify-center text-sm">
-              <div>You don't have a Student ID or Password?</div>
+              <div>You dont have a Student ID or Password?</div>
             </div>
             <div className="flex justify-center text-sm">
               <div className="text-[#7ebcbd]">Contact Us</div>
